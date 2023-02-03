@@ -1,0 +1,49 @@
+ <label for="w3review"></label>
+
+<textarea id="w3review" name="w3review" rows="100" cols="100">
+
+<head>
+  <meta charset="utf-8">
+  <TITLE> przyklad uzycia petli</title>
+  <script language="javaScript">
+var x=prompt("podaj szerokosc a=","");
+    var a_mal=x;
+var y=prompt("podaj wysokosc=","");
+     var b_mal=x;
+	 
+	 
+	 for ( var i=1; i<=(b_mal-2); i++)
+{
+var wiersz_mal="*";
+
+for ( var j=1; j<=(b_mal-2); j++)
+{
+wiersz_mal=wiersz_mal+"&nbsp&nbsp";
+}
+wiersz_mal=wiersz_mal+"*";
+
+document.write(wiersz_mal+"<br>");
+}
+
+
+for (var i=1; i<=a_mal; i++)
+{
+  document.write("*");
+  
+}
+  documet.write("<br>");
+
+  for (var i=1; i<=a_mal; i++)
+{
+document.write("*");
+}
+
+
+    
+	</script>
+   </head>
+ <body>
+ </body>
+</html>
+
+</textarea>

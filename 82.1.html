@@ -1,0 +1,32 @@
+<html>
+<head>
+<title> Zadanie 82</title>
+<script language="JavaScript">
+function pushbutton() {
+alert("Czesc !");}
+</script>
+</head>
+<body>
+
+<script language="LiveScript">
+ 
+  document.write ("<p style=\"font-size: 250px; color: red;\"><br>Malek<br></p>")
+document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= new Date()--> <br></p>")
+  document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getHours()--><br></p>")
+  document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getMinutes()--><br></p>")
+  document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getmonth()+1--><br></p>")
+  document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getDate()--><br></p>")
+  document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getFullYear()--><br></p>")
+  
+  document.write(document.lastModified,"<br>")
+</script>
+<form>
+<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+<script language="JavaScript">
+dzis = new Date()
+document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+</script>
+</body>
+</html>

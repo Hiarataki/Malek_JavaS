@@ -20,17 +20,16 @@ document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= new Date(
   document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getDate()-->  zwraca dzień miesiąca (od 1 do 31) daty<br></p>")
   document.write ("<p style=\"font-size: 60px; color: green;\"><br>dzis= dzis= dzis.getFullYear()-->Zwraca pełny rok (4 cyfry) daty<br></p>")
   
-  document.write(document.lastModified,"<br>")
+ document.write(document.lastModified,"<br>")
 </script>
 <form>
-
+<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
 </form>
 <script language="JavaScript">
-
 dzis = new Date()
-document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes());
+document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
 document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
-
- </script>
+</script>
 </body>
 </html>
+
